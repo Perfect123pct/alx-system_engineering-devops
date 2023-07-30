@@ -1,0 +1,7 @@
+127.0.0.1 - - [26/Jul/2023:13:11:19 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 200 3592
+127.0.0.1 - - [26/Jul/2023:13:11:25 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 200 3587
+127.0.0.1 - - [26/Jul/2023:13:12:03 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 200 3597
+127.0.0.1 - - [26/Jul/2023:13:12:09 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 200 3588
+127.0.0.1 - - [26/Jul/2023:13:12:12 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 200 3590
+127.0.0.1 - - [26/Jul/2023:13:49:52 +0100] "GET / HTTP/1.1" 200 6237
+127.0.0.1 - - [26/Jul/2023:13:53:04 +0100] "GET / HTTP/1.1" 200 6237
