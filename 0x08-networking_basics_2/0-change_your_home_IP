@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo localhost set-hostname "127.0.0.2"
+sudo facebook set-hostname "8.8.8.8"
