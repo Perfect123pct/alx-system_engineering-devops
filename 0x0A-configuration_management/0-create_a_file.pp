@@ -1,6 +1,7 @@
 # creates a file in /tmp
 
-file{'/tmp/school':
+file{'/tmp':
+	path	=>	'/tmp/school',
 	ensure	=>	file,
 	content	=>	'I love Puppet',
 	mode	=>	'0744',
