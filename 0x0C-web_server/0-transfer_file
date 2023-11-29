@@ -5,14 +5,9 @@
 if [ $# -lt 4 ]; then
   echo "Usage: $0 PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
   exit 1
-fi
-
-file_path=$1
-server_ip=$2
-username=$3
-ssh_key=$4
+for
 
 # Transfer the file using scp
-scp -o StrictHostKeyChecking=no -i "$ssh_key" "$file_path" "$username@$server_ip:~/"
+scp -o StrictHostKeyChecking=no -i "AAAAB3NzaC1yc2EAAAADAQABAAACAQCeFzmlo1lSHvFrYW6DJl2YRaWS9DYeZ8NlRVvkPDoUw+JYH+FuIH4eSgLy4Ma1BYcnd8w/Z6WZHKDcW/1A9aYYMrTYluF0pgpbU7xWEekBA1j4IqANkoad2CKfHCouA3GzCai1a5bQMi1O0pmY1yOHvRbKBfrZE/MxrnO9sGm0JYQEJUqfqlHEtwCanWG3Z4/vBtiOXQaSO4PbEoasorcWqkMNKOv75wWl+TZ+wg6PK7aIXzirrV6XORPk0zl3TcQQgGHs2KUvuv2LBJfmv1bDCdMY86AyTwB6I417wH0lIzX15/rxwOLliGIeIAVTvKoF62DUTIlxho5eH8Rox/i+JkR5GPr5PkrpwiOMkXGCW/nm17jFSHhzpgmY09ObsJkTvqwfYV8qocrengCeLTri45wxfAGSPHqilEe8Z3YpIvHIbMbKu8zXd+a1l2gQs9URkDe6/E7zf9rnyi+T7nmK6XqQ3MKjOLNSTHU77BA4Khx2T+LVuzt84ZmGpzwtohCkt72W13MisSf/zRTVCKIKUmgOIgxTXLQMaRbU9a1EWwqBDan9V8BchvPKwi4Fum14+4G+PybL2FvxPakXaf+2rmZza8ZS7pyu1HZD2AFYFCFL4Ozg9CSfFR3p0VGJnnMfOC0ZLPecLfWXzoFF4pi912ZWokX++lSamECzD9VeqQ== perfection@DESKTOP-6V6S8MM" "C:\Users\PERFECTION\.ssh\id_rsa.pub" "perfection@DESKTOP-6V6S8MM:~/"
 
 exit 0
