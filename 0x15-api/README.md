@@ -1,6 +1,10 @@
 0x15. API
 
+<<<<<<< HEAD
 
+=======
+Tasks
+>>>>>>> 935b8b0588a87073fb1f90d17f88489ca6e70455
 0. Gather data from an API
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
@@ -31,6 +35,7 @@ Requirements:
     Records all tasks that are owned by this employee
     Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
     File name must be: USER_ID.csv
+<<<<<<< HEAD
 
 
 
@@ -45,3 +50,5 @@ Requirements:
     Records all tasks that are owned by this employee
     Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}
     File name must be: USER_ID.json
+=======
+>>>>>>> 935b8b0588a87073fb1f90d17f88489ca6e70455
